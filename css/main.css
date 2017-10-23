@@ -1,0 +1,36 @@
+body{
+  box-sizing: border-box;
+  margin :0;
+  padding:0;
+  color: #303030;
+}
+/*clases reulizables*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+.box-header{
+  display: inline-block;
+}
+.logo header{
+  width: 200px;
+}
+li{
+  display: inline;
+  list-style: none;
+}
+  li a{
+    color: inherit;
+    text-decoration: none;
+
+  }
+  nav{
+    position: absolute
+    right: 5%;
+    top:50%;
+    transform: translateY(-50%);
+  }
+section{
+  text-align: center;
+
+width: 33%;
+}
